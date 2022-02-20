@@ -42,7 +42,7 @@ void Class::addCategory(Category * cat)
     categories.push_back(cat);
 }
 
-void Class::addWeight (double weight_)
+void Class::addWeight(double weight_)
 {
     weight.push_back(weight_);
 }

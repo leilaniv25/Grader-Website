@@ -3,16 +3,13 @@
 class Login 
 {
 public:
-    Login (std::string user, std::string pass);
-    Login (std::string user, std::string pass, std::string email);
+    Login (std::string email_, std::string pass);
 
-    std::string getUser();
-    void changeUser(std::string user);
+    std::string getEmail();
     void changePassword(std::string pass);
     void changeEmail(std::string email_);
 
 private:
-    std::string username;
     std::string password;
     std::string email;
 };
