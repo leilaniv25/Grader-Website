@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grades</title>
+	<style>
+
+		#header {
+			text-align: center;
+		}
+
+		body {
+			background-color: aliceblue;
+		}
+
+		h1 {
+			font-family: "Andale Mono", monospace;
+		}
+
+		h2 {
+			font-family: "Andale Mono", monospace;
+		}
+
+		h3 {
+			font-family: "Andale Mono", monospace;
+		}
+
+		#container {
+			width: 1100px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 100px;
+		}
+
+		#potentialgrades {
+			margin: 30px 100px 30px 20px;
+			width: 520px;
+			height: 260px;
+			padding: 15px;
+			line-height: 1.5;
+			text-align: center;
+			background-color: lightpink;
+			float: right;
+			font-family: "Andale Mono", monospace;
+		}
+
+		#truegradecontainer {
+			background-color: lavender;
+			float: right;
+			margin: 30px 0px 30px 10px;
+			padding: 0px 15px;
+		}
+
+
+		#truegrades { /* sidebar */
+			float: right;
+			width: 520px;
+			height: 260px;
+			line-height: 1em;
+			padding: 10px 15px;			
+			background-color: lightblue;
+			margin: 30px;
+			overflow: auto;
+			font-family: "Andale Mono", monospace;
+		}
+
+		p {
+			font-family: "Andale Mono", monospace;
+		}
+
+		button {
+		padding: 10px;
+		font-family: "Andale Mono", monospace;
+		margin: 35px;
+		}
+
+		#calendar-btn {
+		background-color: #900;
+		color: white;
+		}
+
+		.main-label {
+		width: 50%;
+		float: left;
+}
+
+	</style>
+</head>
+<body>
+
+	<div id="header">
+
+		<h1>Grades</h1>
+
+	</div>
+
+	<div id="potentialgrades">
+		<h3>Class Name: Unfinished Tasks</h3>
+		<ul>
+
+			<li style="text-align:left">Task 1</li>
+			<li style="text-align:left">Task 2</li>
+			<li style="text-align:left">Task 3</li>
+
+		</ul>
+
+
+
+	</div> <!-- closing div for potential grades -->
+
+	<div id="truegradecontainer">
+
+		<h2>Overall GPA:</h2>
+
+		<h2>Semester GPA:</h2>
+
+	<div id="truegrades">
+
+		<h3>Class Name:</h3>
+
+		<p>% homework:</p>
+		<ul>
+			<li>HW 1</li>
+			<li>HW 2</li>
+			<li>HW 3</li>
+		</ul>
+
+		<p>% essay:</p>
+		<ul>
+			<li>Essay 1</li>
+			<li>Essay 2</li>
+			<li>Essay 3</li>
+		</ul>
+
+		<p>% project:</p>
+		<ul>
+			<li>Project 1</li>
+			<li>Project 2</li>
+			<li>Project 3</li>
+		</ul>
+
+		<p>% Midterm:</p>
+		<ul>
+			<li>Midterm 1</li>
+			<li>Midterm 2</li>
+			<li>Midterm 3</li>
+		</ul>
+
+		<p>% Final:</p>
+		<ul>
+			<li>Final</li>
+		</ul>
+
+	</div>
+
+	</div> <!-- closing truegradecontainer div -->
+
+	<form action="calendar.html">
+	<button id="calendar-btn" type="submit">Home</button>
+
+
+
+
+</body>
+
+</html>
