@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Grade Calculator</title>
+
+<style>
+
+	body {
+		background-color: aliceblue;
+	}
+
+	#header {
+		text-align: center;
+		font-size: 20px;
+		margin: 50px auto;
+	}
+
+	h1 {
+		font-family: "Andale Mono", monospace;
+
+	}
+
+	label {
+		font-family: "Andale Mono", monospace;
+	}
+
+
+	#content {
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+		padding: 15px;
+		line-height: 1.5;
+		text-align: center;
+		
+	}
+
+	.form-row{
+		margin: 10px 0px;
+	}
+		
+	/* main-label class, set width and float left */
+	.main-label {
+			width: 50%;
+			float: left;
+	}
+
+	button {
+		padding: 10px;
+		font-family: "Andale Mono", monospace;
+		margin: 35px;
+
+	}
+
+		/* submit-btn id, add background color #900 and make text white */
+	#login-btn {
+		background-color: #900;
+		color: white;
+	}
+
+	
+
+</style>
+
+</head>
+<body>
+
+	<div id="header">
+
+		<h1>Grade Calculator</h1>
+
+	</div>
+
+	<div id="content">
+
+		<form action="calendar.html">
+
+		<div class="form-row">
+		<label for="email" class="main-label">Email:</label>
+		<input id="email" type="email" placeholder="Enter your email:" required>
+		</div>
+
+		<div class="form-row">
+		<label for="password" class="main-label">Password:</label> <!-- label is for accessibility -->
+		<input id="password" type="text" placeholder="Enter your password:"> <!-- placeholder is light shaded grey that is like hint for what to input -->
+		</div>
+
+		<div class="form-row">
+		<button id="login-btn" type="submit">Log In / Create Account</button>
+
+		
+		</div>
+
+
+	</div> <!-- closing content div -->
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
